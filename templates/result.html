@@ -8,9 +8,11 @@
 
     <p>Age: {{ age }}</p>
 
-    <h3>{{ question }}</h3>
-
-    <p><strong>Answer:</strong> {{ answer }}</p>
+    {% for item in questions %}
+        <h3>{{ item.question }}</h3>
+        <p><strong>Answer:</strong> {{ item.answer }}</p>
+        <hr>
+    {% endfor %}
 
     <a href="/">Back to Start</a>
 </body>
