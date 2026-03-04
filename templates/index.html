@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Jeremy's Bible Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+<div class="quiz-container">
     <h1>Jeremy's Bible Quiz</h1>
 
     <form method="POST">
@@ -15,5 +17,6 @@
 
         <button type="submit">Start Quiz</button>
     </form>
+    </div>
 </body>
 </html>
