@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bible Quiz</title>
+<title>Children's Church Quiz</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
+
 <body>
 
-<h1>Hello {{ name }}!</h1>
+<div class="quiz-container">
 
-<p>Age: {{ age }}</p>
+<h2>John 6 Quiz</h2>
 
-<h2>Bible Quiz Questions</h2>
+<p>Student: {{ name }} | Age: {{ age }}</p>
+
+<div class="progress-bar">
+<div class="progress-fill"></div>
+</div>
 
 {% for q in questions %}
-    <div style="margin-bottom:20px;">
-        <p><strong>{{ q.question }}</strong></p>
 
-        <form>
-            <input type="radio" name="answer{{ loop.index }}"> A<br>
-            <input type="radio" name="answer{{ loop.index }}"> B<br>
-            <input type="radio" name="answer{{ loop.index }}"> C<br>
-            <input type="radio" name="answer{{ loop.index }}"> D<br>
-        </form>
+<p><b>{{ loop.index }}. {{ q.question }}</b></p>
 
-        <p><em>Answer:</em> {{ q.answer }}</p>
-    </div>
+{% for choice in q.choices %}
+
+<label class="option">
+<input type="radio" name="q{{ loop.index }}">
+{{ choice }}
+</label>
+
 {% endfor %}
 
+<p><i>Answer: {{ q.answer }}</i></p>
+
 <br>
-<a href="/">Back to Start</a>
+
+{% endfor %}
+
+<button>Submit</button>
+
+</div>
 
 </body>
 </html>

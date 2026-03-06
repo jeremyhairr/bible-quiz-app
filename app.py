@@ -10,58 +10,156 @@ def home():
 
         questions = [
             {
-                "question": "Why were many people looking for Jesus at the beginning of John 6?",
-                "answer": "Because He had done miracles and fed them bread."
+                "question": "What book of the Bible is this story from?",
+                "choices": [
+                    "A. Matthew",
+                    "B. John",
+                    "C. Acts",
+                    "D. Romans"
+                ],
+                "answer": "B"
             },
             {
-                "question": "What did Jesus say was the real reason they were looking for Him?",
-                "answer": "They wanted more bread, not Him."
+                "question": "What did many people say about Jesus' teaching?",
+                "choices": [
+                    "A. It was funny",
+                    "B. It was confusing",
+                    "C. It was hard to accept",
+                    "D. It was boring"
+                ],
+                "answer": "C"
             },
             {
-                "question": "What did Jesus call Himself in this chapter?",
-                "answer": "The Bread of Life."
+                "question": "What does the word 'disciple' mean?",
+                "choices": [
+                    "A. A king",
+                    "B. A follower or learner",
+                    "C. A soldier",
+                    "D. A prophet"
+                ],
+                "answer": "B"
             },
             {
-                "question": "What happened to the people in the Old Testament who ate manna in the wilderness?",
-                "answer": "They eventually died."
+                "question": "Did every disciple who followed Jesus truly believe in Him?",
+                "choices": [
+                    "A. Yes, all of them did",
+                    "B. No, some only followed for a time",
+                    "C. Only the children believed",
+                    "D. Only the Pharisees believed"
+                ],
+                "answer": "B"
             },
             {
-                "question": "What does Jesus promise to people who believe in Him?",
-                "answer": "Eternal life and that He will raise them up on the last day."
+                "question": "What gives people spiritual life according to Jesus?",
+                "choices": [
+                    "A. Good works",
+                    "B. Being rich",
+                    "C. The Spirit of God",
+                    "D. Being popular"
+                ],
+                "answer": "C"
             },
             {
-                "question": "When Jesus says He is the Bread of Life, does He mean real bread? Why or why not?",
-                "answer": "No — He means He feeds and satisfies our hearts and souls."
+                "question": "What happened when many people heard Jesus' difficult teaching?",
+                "choices": [
+                    "A. They clapped",
+                    "B. They left and stopped following Him",
+                    "C. They built Him a house",
+                    "D. They gave Him gifts"
+                ],
+                "answer": "B"
             },
             {
-                "question": "What happens to us if we don’t trust in Jesus?",
-                "answer": "We don’t have eternal life in heaven."
+                "question": "When many people left, what question did Jesus ask the twelve disciples?",
+                "choices": [
+                    "A. Do you understand everything?",
+                    "B. Do you want to go away too?",
+                    "C. Will you build a church?",
+                    "D. Will you feed the crowd?"
+                ],
+                "answer": "B"
             },
             {
-                "question": "What does it mean to 'feed on' Jesus?",
-                "answer": "To believe in Him, trust Him, depend on Him."
+                "question": "Who answered Jesus on behalf of the disciples?",
+                "choices": [
+                    "A. John",
+                    "B. Matthew",
+                    "C. Peter",
+                    "D. Andrew"
+                ],
+                "answer": "C"
             },
             {
-                "question": "Can we make ourselves believe in Jesus all by ourselves?",
-                "answer": "No — God draws us."
+                "question": "What did Peter say Jesus has?",
+                "choices": [
+                    "A. The best stories",
+                    "B. The words of eternal life",
+                    "C. The most friends",
+                    "D. The biggest house"
+                ],
+                "answer": "B"
             },
             {
-                "question": "What does it mean when Jesus says the Father 'draws' people to Him?",
-                "answer": "God shows them their sin and need of a Savior and gives them faith to believe."
+                "question": "According to Peter, who is Jesus?",
+                "choices": [
+                    "A. A great teacher only",
+                    "B. The Holy One of God",
+                    "C. A good helper",
+                    "D. A prophet only"
+                ],
+                "answer": "B"
             },
             {
-                "question": "If someone truly comes to Jesus, what does Jesus promise He will never do?",
-                "answer": "Never cast them out."
+                "question": "What is an important truth this passage teaches about following Jesus?",
+                "choices": [
+                    "A. Following Jesus is always easy",
+                    "B. Only adults should follow Jesus",
+                    "C. Sometimes following Jesus is hard",
+                    "D. Following Jesus makes you rich"
+                ],
+                "answer": "C"
             },
             {
-                "question": "Who keeps us safe in salvation — us or Jesus?",
-                "answer": "Jesus keeps us."
+                "question": "Who did John say would betray Jesus?",
+                "choices": [
+                    "A. Peter",
+                    "B. Judas",
+                    "C. John",
+                    "D. Thomas"
+                ],
+                "answer": "B"
             },
             {
-                "question": "What does Jesus mean when He says He will 'raise us up on the last day'?",
-                "answer": "One day He will bring believers back to life forever."
+                "question": "Even though Judas followed Jesus, what was true about him?",
+                "choices": [
+                    "A. He truly loved Jesus",
+                    "B. He was the best disciple",
+                    "C. He did not truly believe",
+                    "D. He never heard Jesus teach"
+                ],
+                "answer": "C"
+            },
+            {
+                "question": "According to the sermon, what two things really matter to Jesus?",
+                "choices": [
+                    "A. Having the biggest crowd",
+                    "B. Believing and being a faithful follower of His",
+                    "C. Having the most money",
+                    "D. Having the loudest music"
+                ],
+                "answer": "B"
+            },
+            {
+                "question": "What is the big question this passage asks us?",
+                "choices": [
+                    "A. Will we be famous?",
+                    "B. Will we walk away from Jesus or stay with Him?",
+                    "C. Will we become kings?",
+                    "D. Will we travel the world?"
+                ],
+                "answer": "B"
             }
-        ]
+            ]
 
         return render_template(
             "result.html",
