@@ -15,7 +15,7 @@ def home():
                     "A. Judea",
                     "B. Galilee",
                     "C. Egypt",
-                    "D. Rome"
+                    "D. Japan"
                 ],
                 "answer": "B"
             },
