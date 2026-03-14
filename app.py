@@ -19,16 +19,7 @@ def home():
                 ],
                 "answer": "B"
             },
-            {
-                "question": "What did many people say about Jesus' teaching?",
-                "choices": [
-                    "A. It was funny",
-                    "B. It was confusing",
-                    "C. It was hard to accept",
-                    "D. It was boring"
-                ],
-                "answer": "B"
-            },
+
             {
                 "question": "Why did Jesus avoid traveling in Judea?",
                 "choices": [
