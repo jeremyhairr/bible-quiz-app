@@ -10,12 +10,12 @@ def home():
 
         questions = [
             {
-                "question": "What book of the Bible is this story from?",
+                "question": "Where was Jesus traveling in John 7:1?",
                 "choices": [
-                    "A. Matthew",
-                    "B. John",
-                    "C. Acts",
-                    "D. Romans"
+                    "A. Judea",
+                    "B. Galilee",
+                    "C. Egypt",
+                    "D. Rome"
                 ],
                 "answer": "B"
             },
@@ -27,138 +27,98 @@ def home():
                     "C. It was hard to accept",
                     "D. It was boring"
                 ],
-                "answer": "C"
-            },
-            {
-                "question": "What does the word 'disciple' mean?",
-                "choices": [
-                    "A. A king",
-                    "B. A follower or learner",
-                    "C. A soldier",
-                    "D. A prophet"
-                ],
                 "answer": "B"
             },
             {
-                "question": "Did every disciple who followed Jesus truly believe in Him?",
+                "question": "Why did Jesus avoid traveling in Judea?",
                 "choices": [
-                    "A. Yes, all of them did",
-                    "B. No, some only followed for a time",
-                    "C. Only the children believed",
-                    "D. Only the Pharisees believed"
-                ],
-                "answer": "B"
-            },
-            {
-                "question": "What gives people spiritual life according to Jesus?",
-                "choices": [
-                    "A. Good works",
-                    "B. Being rich",
-                    "C. The Spirit of God",
-                    "D. Being popular"
+                    "A. It was too crowded",
+                    "B. The weather was bad",
+                    "C. The Jewish leaders wanted to kill him.",
+                    "D. His disciples told Him not to go. "
                 ],
                 "answer": "C"
             },
             {
-                "question": "What happened when many people heard Jesus' difficult teaching?",
+                "question": "What festival was near in John 7?",
                 "choices": [
-                    "A. They clapped",
-                    "B. They left and stopped following Him",
-                    "C. They built Him a house",
-                    "D. They gave Him gifts"
-                ],
-                "answer": "B"
-            },
-            {
-                "question": "When many people left, what question did Jesus ask the twelve disciples?",
-                "choices": [
-                    "A. Do you understand everything?",
-                    "B. Do you want to go away too?",
-                    "C. Will you build a church?",
-                    "D. Will you feed the crowd?"
-                ],
-                "answer": "B"
-            },
-            {
-                "question": "Who answered Jesus on behalf of the disciples?",
-                "choices": [
-                    "A. John",
-                    "B. Matthew",
-                    "C. Peter",
-                    "D. Andrew"
+                    "A. Passover",
+                    "B. Pentecost",
+                    "C. Festival of Booths (Tabernacles)",
+                    "D. Day of Atonement"
                 ],
                 "answer": "C"
             },
             {
-                "question": "What did Peter say Jesus has?",
+                "question": "What did the Festival of Booths celebrate",
                 "choices": [
-                    "A. The best stories",
-                    "B. The words of eternal life",
-                    "C. The most friends",
-                    "D. The biggest house"
+                    "A. David beating Goliath.",
+                    "B. God's provision and the harvest",
+                    "C. The building of the temple",
+                    "D. The birth of Moses"
                 ],
                 "answer": "B"
             },
             {
-                "question": "According to Peter, who is Jesus?",
+                "question": "During the Festival of Booths, what did people live in?",
                 "choices": [
-                    "A. A great teacher only",
-                    "B. The Holy One of God",
-                    "C. A good helper",
-                    "D. A prophet only"
+                    "A. Tents or booths",
+                    "B. boats",
+                    "C. caves",
+                    "D. stone houses"
+                ],
+                "answer": "A"
+            },
+            {
+                "question": "Did Jesus’ brothers believe in Him at this time?",
+                "choices": [
+                    "A. Yes",
+                    "B. No"
+
                 ],
                 "answer": "B"
             },
             {
-                "question": "What is an important truth this passage teaches about following Jesus?",
+                "question": "What did Jesus’ brothers tell Him to do?",
                 "choices": [
-                    "A. Following Jesus is always easy",
-                    "B. Only adults should follow Jesus",
-                    "C. Sometimes following Jesus is hard",
-                    "D. Following Jesus makes you rich"
+                    "A. Leave Galilee and go to the festival publicly",
+                    "B. Stay hidden in Galilee",
+                    "C. Return to Nazareth",
+                    "D. Go preach in Nineveh"
+                ],
+                "answer": "A"
+            },
+            {
+                "question": "What did Jesus say about His time",
+                "choices": [
+                    "A. It had already come",
+                    "B. It would never come",
+                    "C. His time had not yet come",
+                    "D. He did not know the time"
                 ],
                 "answer": "C"
             },
             {
-                "question": "Who did John say would betray Jesus?",
+                "question": "Why did the world hate Jesus?",
                 "choices": [
-                    "A. Peter",
-                    "B. Judas",
-                    "C. John",
-                    "D. Thomas"
+                    "A. Because He traveled a lot",
+                    "B. Because He testified that its works were evil",
+                    "C. Because He healed people",
+                    "D. Because He was from Rome"
                 ],
                 "answer": "B"
             },
             {
-                "question": "Even though Judas followed Jesus, what was true about him?",
+                "question": "Did Jesus eventually go to the festival?",
                 "choices": [
-                    "A. He truly loved Jesus",
-                    "B. He was the best disciple",
-                    "C. He did not truly believe",
-                    "D. He never heard Jesus teach"
+                    "A. Yes, but secretly",
+                    "B. No, He stayed in Galilee",
+                    "C. Yes, with a large crowd",
+                    "D. Yes, with His brothers"
                 ],
-                "answer": "C"
+                "answer": "A"
             },
-            {
-                "question": "According to the sermon, what two things really matter to Jesus?",
-                "choices": [
-                    "A. Having the biggest crowd",
-                    "B. Believing and being a faithful follower of His",
-                    "C. Having the most money",
-                    "D. Having the loudest music"
-                ],
-                "answer": "B"
-            },
-            {
-                "question": "What is the big question this passage asks us?",
-                "choices": [
-                    "A. Will we be famous?",
-                    "B. Will we walk away from Jesus or stay with Him?",
-                    "C. Will we become kings?",
-                    "D. Will we travel the world?"
-                ],
-                "answer": "B"
-            }
+
             ]
 
         return render_template(
